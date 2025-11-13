@@ -96,7 +96,7 @@ class SSPGrid:
             if cfg.grid[i][j] == "#"
         }
 
-        # 塔位置（默认不当墙，如果想当障碍可以用 '#' 画出来）
+        # 塔位置
         self.towers = {
             (i, j)
             for i in range(self.h)
